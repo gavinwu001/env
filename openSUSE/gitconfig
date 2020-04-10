@@ -1,0 +1,9 @@
+[user]
+	name = wudi
+	email = wudi@cloutropy.com
+[push]
+	default = simple
+[color]
+	ui = auto
+[diff]
+	external = $HOME/repos/env/tools/git_meld.sh

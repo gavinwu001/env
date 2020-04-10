@@ -1,0 +1,42 @@
+#!/bin/sh
+    sudo zypper install git emacs make global gcc-c++ bison flex patch termcap minicom ncurses-devel cmake ant wireshark tree python python-devel;
+
+    # ffmpeg - ffplay
+    sudo zypper install libSDL2-devel;
+
+    # for android make
+    sudo zypper install automake autoconf libtool;
+
+    # for make menuconfig
+    sudo zypper install zlib-devel libssh2-devel;
+
+    # for docker
+    sudo zypper install docker;
+
+    sudo zypper install unrar;
+
+    sudo zypper install iftop;
+
+    # for develop
+    sudo zypper install cgdb;
+
+    sudo zypper install mtd-utils;
+
+    # for redis-cluster
+    sudo zypper install ruby;
+
+    sudo gem install redis;
+
+    sudo zypper install mtd-utils;
+
+    sudo zypper install bc;
+
+    sudo zypper install u-boot-tools;
+
+    sudo zypper install dtc;
+
+    sudo zypper install pkg-config;
+
+    sudo zypper install pcre-devel;
+
+    sudo zypper install net-tools-deprecated;
