@@ -12,3 +12,9 @@
 ;(global-set-key (kbd "C-M-g") 'goto-line)
 (define-key global-map "\C-c\C-g" 'goto-line)
 (define-key global-map "\C-x\C-x" 'other-window)
+
+
+(define-prefix-command 'window-sense-map)
+(global-set-key (kbd "C-q") 'window-sense-map)
+(define-key window-sense-map (kbd "C-f") 'find-file-other-window)
+(define-key window-sense-map (kbd "C-c") 'delete-window)
